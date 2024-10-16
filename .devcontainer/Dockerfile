@@ -4,4 +4,5 @@
 # ARG VARIANT="1.18-bullseye"
 FROM mcr.microsoft.com/devcontainers/go:latest
 RUN go install github.com/Azure/aztfexport@latest
+# RUN go install github.com/infracost/infracost@latest
 WORKDIR "/mnt"

@@ -8,7 +8,8 @@
 			// Update the VARIANT arg to pick a version of Go: 1, 1.18, 1.17
 			// Append -bullseye or -buster to pin to an OS version.
 			// Use -bullseye variants on local arm64/Apple Silicon.
-			"VARIANT": "1.17"
+			"VARIANT": "1.17",
+			"TERRAFORM_VERSION": "1.9.8"
 		}
 	},
 	"mounts": [
@@ -36,7 +37,7 @@
 		45883
 	],
 	// Comment out to connect as root instead. More info: https://aka.ms/vscode-remote/containers/non-root.
-	"remoteUser": "vscode",
+	// "remoteUser": "vscode",
 	"features": {
 		"terraform": "latest",
 		"azure-cli": "latest"
