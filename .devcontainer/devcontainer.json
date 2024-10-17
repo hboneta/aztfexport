@@ -13,7 +13,7 @@
 		}
 	},
 	"mounts": [
-		"source=/c/Users/p009732G/localcode/terraform/captures,target=/mnt,type=bind"
+		"source=/c/Users/p009732G/localcode/terraform,target=/mnt,type=bind"
 	],
 	"runArgs": [
 		"--cap-add=SYS_PTRACE",
